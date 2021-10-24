@@ -1,8 +1,17 @@
 language: python
 python:
+<<<<<<< HEAD
   - "3.8.2"
   - "nightly"
-instal:
+install:
   - "pip install pytest"
   - "pip install -r requirements.txt"
 script: python -m pytest API
+=======
+ - "3.8.2"
+ - "nightly"
+install:
+ - "pip install pytest"
+ - "pip install -r requirements.txt"
+script: python -m pytest Test.py
+>>>>>>> 3d0e638773e08116d8016ba1c070a98551ea9161
