@@ -5,4 +5,4 @@ python:
 instal:
   - "pip install pytest"
   - "pip install -r requirements.txt"
-script: python -m pytest pythonProject8
+script: python -m pytest API
